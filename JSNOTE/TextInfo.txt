@@ -1,0 +1,24 @@
+1> The full form of REPL is Read-Eval-Print Loop.
+
+ It is an interactive programming environment that takes user inputs (Read),
+evaluates them (Eval), and returns the result (Print). This loop continues until the user exits (Loop).
+
+
+
+
+
+
+
+run from command : enter to desier folder and node .\first.js  where first.js is desier file to run in node.\
+
+
+
+# Open anytypes of files inside folder:
+In Linux:
+  xdg-open filename      
+
+In MacOs:
+  open filename
+
+In Win:
+  start filename

@@ -1,0 +1,8 @@
+VS SHORT CUT KEY:
+alt+shift+arrow(up and down)=copy of selected line
+alt+arrow(up and down)=shift the line 
+shift+arrow(up, down, sides)=select the line
+select the line s
+
+ctrl+\ => provide two coding area
+ctrl+j => opens terminal

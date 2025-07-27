@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bulb{ 
+    background: blue;
+    background: red;
+    background: green
+  }
+  
+   .bulbcontainer{
+    height: 341px;
+    width: 341px; 
+  }
+
+  .bulb1{ 
+    background: blue;
+    background: red;
+   
+  }
+  
+   .bulb1container{
+    height: 341px;
+    width: 341px; 
+  }

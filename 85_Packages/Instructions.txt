@@ -1,0 +1,58 @@
+npm = (node packages manager)
+npm init: for initializing npm packages in target folder with query.
+npm init -y: for initializing npm packages in target folder with out query.
+    After this Package.json file will automatically seen.
+
+npm i pdf-creator-node : add packages requiered for pdf creator. "node_modules" folder is seen inside 85_Packages.    
+
+Now node_modules contains excessive large files and folders so we delete it and push in git. And if someone extract those pushed file
+and folders they must type command: "npm install" .
+                       These instruct that; go to package.json and install all dependencies.
+
+{
+  "name": "85_packages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "modules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {                          // so these are the dependencies which will be install .
+    "pdf-creator-node": "^2.3.5"
+  }
+}
+
+
+
+Similarly people also use yarn. yarn is also an packages manager similar as npm. if u choose npm then choose npm , if u choose yarn
+then choose yarn in entier project. So command for yarn inplace of "npm install" is: "yarn add" .
+
+
+
+
+1. For Locally Installed Packages
+Run this command to verify the installation of packages listed in package.json:
+npm install
+
+2. For Global Packages
+To check globally installed packages, use:
+npm list -g --depth=0
+
+3. Verify Specific Package Installation
+To verify if a specific package is installed (locally or globally), run:
+npm list <package-name>
+For globally installed packages:
+npm list -g <package-name>
+
+4. Check for Outdated or Broken Packages
+To check if any package is outdated, run:
+npm outdated
+
+5. Reinstall All Packages
+If you suspect issues with the installation, you can delete the node_modules folder and reinstall all dependencies:
+rm -rf node_modules
+npm install
+This ensures all packages listed in package.json are installed correctly
